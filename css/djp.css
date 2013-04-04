@@ -5,6 +5,7 @@
   box-shadow: 0px 0px 20px #777;
   max-width: 700px;
   margin: auto;
+  opacity: 0;
 }
 
 #graph-container {
@@ -27,13 +28,19 @@
 
 @media screen and (min-width:960px) {
   .hero-unit {
-    margin-top: 80px;
+    margin-top: 100px;
   }
 }
 
 #footer {
-  max-width: 740px;
+  max-width: 780px;
   margin: auto;
+  opacity: 0;
+}
+
+#footer li {
+  opacity: 0;
+  margin-top: 50px;
 }
 
 #footer hr {
@@ -42,13 +49,13 @@
 
 .hero-unit h1 {
   color: #7b030f;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   font-family: monospace;
 }
 
 @media screen and (min-width:960px) {
   .hero-unit h1 {
-    font-size: 4.5em;
+    font-size: 4.0em;
   }
 }
 
