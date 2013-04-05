@@ -33,7 +33,7 @@
       $('.view-graph').click(function(e) {
 
         e.preventDefault();
-        $('#graph-container').animate({height: 180}, 1500);
+        $('#graph-container').animate({height: 250}, 1500);
 
         // Loop through progress bars to animate them.
         $.each($('#graph-container .progress .bar'), function(i, val) {

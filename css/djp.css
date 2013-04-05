@@ -47,6 +47,10 @@
   margin: 20px 0px 10px 0px;
 }
 
+.hero-unit .progress {
+  margin-bottom: 0px;
+}
+
 .hero-unit h1 {
   color: #7b030f;
   margin-bottom: 30px;
